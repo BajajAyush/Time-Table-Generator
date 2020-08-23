@@ -164,10 +164,10 @@ tablemaker()
     
     
     mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    passwd="Ayush0510",
-    database="timetable"
+    host="",
+    user="",
+    passwd="",
+    database=""
     )
     mycursor = mydb.cursor()
     
