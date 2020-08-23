@@ -195,10 +195,10 @@ def sqlinserter():
     cons=tablemaker()
     
     mydb = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    passwd="Ayush0510",
-    database="timetable"
+    host="",
+    user="",
+    passwd="",
+    database=""
     )
     mycursor = mydb.cursor()
     
@@ -218,10 +218,10 @@ def sqlinserter():
         print(i)
     
     mydb1 =mysql.connector.connect(
-    host="localhost",
-    user="root",
-    passwd="Ayush0510",
-    database="teacher"
+    host="",
+    user="",
+    passwd="",
+    database=""
     )
     mycursor = mydb1.cursor()
     
