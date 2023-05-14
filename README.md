@@ -5,4 +5,5 @@ This is the time table which takes in number of teachers,no of periods required,
 Output is recieved in the MySQL Server of the user or as an excel file. You must add your server details in def sqlinserter() in time table gui.
 
 Techstck used- PyQT5(for GUI), Python
+
 Made by Ayush Bajaj
